@@ -1,0 +1,153 @@
+.banner-wrapper {
+    background-color: #F7F3EB;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-tittle {
+    margin: 40px 0 0;
+}
+
+.banner-tittle span {
+    display: block;
+    color: #1F1C15;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 55px;
+    margin: 0 0 12px;
+}
+
+.banner-tittle p {
+    color: #444849;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 25px;
+}
+
+.banner-tittle .btn-anchor {
+    padding: 10px 25px;
+}
+
+.banner-tittle .btn-anchor:hover {
+    border: 2px solid #1F1C15 !important;
+}
+
+.chat-panel {
+    background-color: #fff;
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.chat-panel .chat-response {
+    min-height: 300px;
+    overflow: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-panel .chat-response .ai-chat-ans {
+    flex: 1;
+}
+
+.chat-response span {
+    color: #444849;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.chat-response .ai-pre-question {
+    border-bottom: 1px solid #C0C0C0;
+    padding: 0 0 10px;
+}
+
+.chat-response .ai-pre-question ul {
+    margin: 0;
+    padding: 0;
+}
+
+.chat-response .ai-pre-question ul li {
+    margin: 0 0 10px;
+}
+
+.chat-response .ai-pre-question ul li a {
+    color: #444849;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 1px solid #444849;
+    padding: 10px 15px;
+    display: block;
+}
+
+.chat-panel .chat-search-wrap {
+    position: relative;
+    margin: 20px 0 0;
+}
+
+.chat-panel .chat-search-wrap .form-control {
+    color: #727272;
+    font-size: 14px;
+    font-weight: 600;
+    resize: none;
+    height: 48px;
+    border: 1px solid #727272;
+    box-shadow: none;
+    padding: 11px 55px 0 10px;
+}
+
+.sent-btn {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5D064;
+    border-radius: 6px;
+    cursor: pointer;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+}
+
+.sent-btn i {
+    font-size: 20px;
+    color: #444849;
+}
+
+.slider-wrapper {
+    margin: 70px 0 0;
+}
+
+.slider-wrapper .slider-header {
+    min-height: 50px;
+    border-bottom: 1px solid #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.slider-wrapper .slider-header .leftbar span {
+    color: #1F1C15;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+}
+
+.slider-header .leftbar span::before {
+    content: "";
+    position: absolute;
+    background-color: #F5D064;
+    height: 3px;
+    width: 60px;
+    bottom: -14px;
+}
+
+.main-slider {
+    margin: 20px 0 0;
+}

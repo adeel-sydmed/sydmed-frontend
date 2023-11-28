@@ -1,0 +1,92 @@
+.margin-0 {
+    margin: 0 !important;
+}
+
+.border-0 {
+    border: none !important;
+}
+
+.btn-100 {
+    width: 100%;
+}
+
+.min-h-100 {
+    min-height: 100px !important;
+}
+
+.h-150 {
+    height: 150px !important;
+}
+
+.h-200 {
+    height: 200px !important;
+}
+
+.fw-500 {
+    font-weight: 500 !important;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none !important;
+}
+
+br {
+    content: "";
+    display: block;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background: #F5D064 !important;
+    border: 2px solid #F5D064 !important;
+    color: #1F1C15 !important;
+    box-shadow: none !important;
+}
+
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+    outline: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:active:hover,
+.btn-primary:active:focus {
+    background: #1F1C15 !important;
+    border: 2px solid #F5D064 !important;
+    color: #fff !important;
+}
+
+.btn-primary-outline {
+    background: #1F1C15;
+    border: 2px solid #F5D064 !important;
+    color: #fff !important;
+}
+
+.btn-primary-outline:hover,
+.btn-primary-outline:focus,
+.btn-primary-outline:active,
+.btn-primary-outline:active:hover,
+.btn-primary-outline:active:focus {
+    background: #F5D064;
+    border: 2px solid #F5D064 !important;
+    color: #1F1C15 !important;
+}
